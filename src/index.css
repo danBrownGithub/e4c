@@ -1,0 +1,223 @@
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
+  @keyframes transitionIn {
+      from {
+          opacity: 0;
+          transform: translateX(-10deg);
+      }
+  
+      to {
+          opacity: 1;
+          transform: translateX(0);
+      }
+  }
+  
+  ul{
+      list-style-type: none;
+      overflow: hidden;
+      position:relative;
+      top: 0;
+      margin: 0;
+      box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+      z-index: 5; 
+  }
+  
+  li{
+      float: left;
+      display: inline;
+      padding: 1%;
+  }
+  li a{
+      display: block;
+      text-decoration: none;
+  
+  }
+  
+  .row{
+      padding-top: 1%;
+  }
+  h3:hover{
+      cursor: pointer;
+  }
+  .colomnL {
+      background-color: floralwhite;
+      float: left;
+      width: 20%;
+      padding-left: 2.4%;
+      padding-right: 2.4%;
+      min-height:90vh;
+  }
+  
+  .columnR {
+      
+      background-color: purple;
+      float: right;
+      width: 70%;
+      padding-left: 2.4%;
+      padding-right: 2.4%;
+      min-height: 90vh;
+  }
+  div{
+      text-align: center; 
+  }
+  
+  button{
+      background-color: mediumpurple;
+      border: none;
+      padding: 3%;
+      width: 75%;
+      max-width: 400px;
+      height: auto;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition-duration: 0.5s;
+      border-radius: 3px 4px;
+      animation: transitionIn 2s;
+      
+  }
+  
+
+  button:hover{
+      background-color: rebeccapurple;
+      cursor: pointer;
+  }
+  
+  .AMButton{
+      float:right;
+      width: 20%;
+  }
+  
+  #trash{
+      float: left;
+      width: 5%; 
+      padding-left: 2.5%;
+      padding-top: 2.5%; 
+      opacity: .5;
+  }
+  #trash:hover{
+      cursor: pointer;
+      opacity: 1;
+  }
+  #AMTrash {
+      
+      float: left;
+      width: 2%;
+      padding-left: 2.5%;
+      padding-top: 3%;
+      opacity: .5;
+  }
+  #AMTrash:hover {
+      cursor: pointer;
+      opacity: 1;
+  }
+  .classes{
+      border: 2px solid grey;
+      border-radius: 3px 4px;
+      
+  }
+  .sections {
+      border-top: 1px solid green;
+      border-bottom: 1px solid green;
+  }
+  
+  .Groups {
+      border-top: 0.5px solid green;
+      
+  }
+  
+  
+  .Collapsible__trigger:hover{
+      cursor: pointer;
+  }
+  .Collapsible{
+      overflow:visible;
+  }
+  
+  .Collapsible__trigger {
+      float: right;
+      font-size: 50px;
+      position: relative;
+      bottom: 20vh;
+      right: 2vh;
+      padding: 1%;
+      
+  }
+  .Collapsible__trigger.is-closed {
+    transform: rotate(177deg);
+    position: relative;
+    bottom: 10vh;
+    
+  }
+  .actMan {
+      background: none;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+  }
+  .task{
+      height: 25%;
+      width: 25%;
+      background-color: mediumpurple;
+      border-radius: 30px;
+      border: 2px solid white;
+      
+      align-items: center;
+  }
+  #plus {
+      position: relative;
+      bottom: 5vh;
+      padding: 0;
+      border-radius: 50%;
+      float: right;
+      width: 20px;
+      height: 20px;
+      line-height: 10px;
+      font: bold;
+      font-size: 20px;
+      display: inline-block;
+  }
+  #minus {
+      position: relative;
+      bottom: 5vh;
+      margin: 1%;
+      padding: 0;
+      float: left;
+      line-height: 7px;
+      height: 20px;
+      width: 20px;
+      align-content: center;
+      border-radius: 50%;
+      font: bold;
+      font-size: 20px;
+  }
+  #right{
+      float: right;
+  }
+  #navClass{
+      position: relative;
+      float: left;
+      text-decoration: none;
+      padding: 1%;
+      color: black;
+  }
+  #prize {
+      background-color: mediumpurple;
+      opacity: .80;
+      color: black;
+  }
+   
